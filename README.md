@@ -1,17 +1,47 @@
-# f9
+# Flutter 9 
 
-A new Flutter project.
+### Исполнитель
+* **Фамилия Имя:** Чумаченко Михаил
+* **Группа:** ИСП-242
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Что было изучено и реализовано в ходе работы:
+1. **Различие между StatelessWidget и StatefulWidget:** Поняли, в каких случаях UI должен быть статичным, а в каких — динамически обновляемым в зависимости от действий пользователя.
+2. **Управление состоянием через setState():** Научились уведомлять Flutter об изменениях внутренних переменных (монет, выбранных картинок) для автоматической перерисовки интерфейса.
+3. **Подключение локальных ресурсов (assets):** Освоили регистрацию изображений в конфигурационном файле `pubspec.yaml` с соблюдением строгой структуры отступов.
+4. **Асинхронное программирование (async/await):** Реализовали реалистичную прокрутку барабанов слот-машины с эффектом замедления и поочерёдной остановки.
+5. **Валидация состояний и защита UI:** Настроили блокировку кнопок «КРУТИТЬ» и «Начать заново» при нулевом балансе монет или во время вращения барабанов.
+6. **Базовая анимация компонентов:** Применили встроенные виджеты `AnimatedOpacity` для мигания барабанов и `AnimatedSwitcher` для красивого переключения текстовых сообщений.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Скриншот финального приложения
+![Финальный экран приложения](img/2026-10-22_15-03.png)
+
+
+
+## Инструкция по запуску проекта
+
+
+
+1. **Клонируйте репозиторий и перейдите в папку проекта:**
+
+   ```bash
+   git clone <url>
+   ```
+
+   ```bash
+   cd f9
+   ```
+
+2. **Загрузите зависимости проекта:**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Запустите приложение в Edge:**
+   ```bash
+   flutter run -d edge
+   ```
